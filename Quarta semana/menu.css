@@ -1,0 +1,141 @@
+body,
+html{
+	margin:  0; 
+	padding: 0;
+	font-size:16px;
+}
+body{
+	background:#ccc url(https://www.itinsight.pt/img/uploads/1140x641_8f1315acd12dbd4da670ecbc604eaa41.jpg) center top no-repeat;
+	background-size:200%;
+	background-attachment:scroll;
+}
+a, a img{
+	text-decoration:none;
+	border:none;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+.principal{
+	/* width: 960px; */
+	max-width:100%;
+	color: #444;
+	margin: 0 auto;
+	font-family:sans-serif;
+}
+.cabecalho, 
+.logo, 
+.rodape,
+
+.menu{
+	width:100%;
+	display:flexbox;
+	clear:both;
+	background:rgb(0, 0, 0) url(http://www.knowledgeatwharton.com.br/wp-content/uploads/2017/12/ai-brain-618x338.jpg) right center no-repeat;
+	background-size:7%;
+	background-attachment: scroll;
+}
+
+.menu ul li, 
+.menu ul{
+	margin:0;
+	padding: 9px;
+	list-style:none;
+    font-size: 100%;
+    text-align: center;
+}
+.menu ul li{
+	display:inline-block;
+    padding: 15px;
+}
+
+.menu ul li a{
+	display:block;
+	color:#fff;
+}
+
+.menu ul li a:hover{
+    font-size: 120%;
+    padding: 10px;
+    background-color: aquamarine;
+	display: flexbox;
+	color: black;
+    transition: .5s;
+    border-radius: 30px;
+
+}
+
+.menu li:last-child a{
+    padding: 10px;
+    background-color: snow;
+    color: black;
+    border-radius: 30px;
+}
+
+.cabecalho{
+	height:100px;
+}
+.logo-cabecalho{
+	float:left;
+}
+.logo-cabecalho a{
+	font-size:45px;
+	font-style:bold;
+	text-decoration:none;
+	color:#999;
+	display:block;
+	padding:20px 0 0 0;
+}
+
+.cabecalho{
+	background:#ccc url(https://img.ibxk.com.br/2020/05/13/13212151029190.jpg?w=1120&h=420&mode=crop&scale=both) center top no-repeat;
+	background-size:120%;
+	background-attachment:scroll;
+}
+
+
+.corpo{
+	position:relative;
+	overflow:hidden;
+}
+.artigos{
+	float:left;
+}
+.artigos, .artigos:before{
+	width:70%;
+}
+.artigos:before{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	background:#fff;
+	z-index:-1;
+	content:'';
+}
+.barra-lateral{
+	float:right;
+}
+.barra-lateral, .barra-lateral:before{
+	width:30%;
+}
+.barra-lateral:before{
+   content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+	right:0;
+    z-index: -1;
+    background: #ccc;
+}
+.espacamento{
+	padding:20px;
+}
+.rodape{
+	font-size:25px;
+	font-style:bold;
+	padding:20px;
+	text-align:center;
+	color: #fff;
+}
