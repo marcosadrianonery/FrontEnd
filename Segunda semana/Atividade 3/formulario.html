@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+ 
+<html>
+ <head>
+  <title> Formulario em HTML </title>
+  <meta name="description" content="Layout em tabelas">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+ </head>
+ 
+ <body>
+ <!-- TABELA PRINCIPAL -->
+ <table cellspacing="50" align="center" border="1">
+    <!-- CABEÇALHO -->
+    <table align="center">
+        <!-- logo e nome -->
+        <tr>
+            <td align="left"> <h1>Formulario HTML</h1></td>
+        </tr>
+
+    </table>
+
+
+    <table cellpadding="10" align="center" border="1">
+        <tr>
+            <td><h3>Entre com os seus dados</h3></td>
+        </tr>
+    </table>
+
+    <!-- CORPO DO SITE  E MENU DO SITE-->
+    <table cellpadding="10" cellspacing="10" align="center" border="1">
+
+    <tr>
+        <td align="center" valign="center">
+
+            <table align="center" valign="center" border="10">
+                    <tr> 
+                        <td align="center" valign="center">
+                            <h1><font size="4" face="Times" color="#06877F">
+                                Dados pessoais: 
+                            </font></h1>
+                        </td>
+                    </tr> 
+                        <tr>                        
+                            <td align="left" valign="center">
+                                <label for="nome">Seu Nome:</label>
+                                <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+                            </td>
+                        </tr>
+
+                        <tr border="10">                        
+                            <td align="left" valign="top" border="10">
+                                <label for="card">
+                                    <span>Sexo:</span>
+                                </label>
+                                <select id="sexo" name="sexo">
+                                    <option value="Masculino">Masculino</option>
+                                    <option value="Feminino">Feminino</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>                        
+                            <td align="left" valign="top">
+                                <label for="date">
+                                    <span>Nascimento:</span>
+                                    <strong><abbr title="required">*</abbr></strong>
+
+                                </label>
+                                    <input type="date" id="date" name="expiration">
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="field radiobox">        
+                                <span>Deseja receber nossas novidades?</span>
+                                <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                                <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+                        </td>
+                        </tr>
+
+                    </article>
+
+            </table>
+        </td>
+
+        <td align="center" valign="center">
+            <table>
+                <tr>
+                    <button type="submit">Enviar</button>
+
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+
+ 
+    <!-- RODAPÉ-->
+    <table align="center">
+        <tr>
+            <td>
+            <br /><br /><br />
+            <a href="https://informatica.sp.senai.br/curso/89197/132/desenvolvimento-frontend-com-html5-css3-e-javascript">Curso Front End Senai</a>
+            </td>
+        </tr>
+    </table>
+
+ </table>
+ </body>
+
+</html>
